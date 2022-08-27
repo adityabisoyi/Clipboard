@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira', sans-serif;
+    background-color: rgb(245, 245, 245);
+    overflow-x: hidden;
+}
+
+
+
+
+
+.logo {
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    /* background: linear-gradient(transparent,); */
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.logo img {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    display: inline-block;
+    background: transparent;
+}
+
+
+
+
+
+.title {
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: hsl(210, 10%, 33%);
+    /* display: inline-block;
+    margin: auto; */
+}
+.title h1 {
+    display: inline-block;
+}
+.title p {
+    padding: 2% 0%;
+    display: block;
+    margin: auto;
+    font-size: 1.3rem;
+    color: hsl(201, 11%, 66%);
+    max-width: 700px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn {
+    display: inline-block;
+    background-color: aqua;
+    margin: 1.3em 0.5rem;
+    padding: 0.8em 2.5em;
+    border-radius: 1000px;
+    color: white;
+    font-size: 1.1rem;
+}
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 3.5px hsl(171, 67%, 32%);
+}
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3.5px hsl(233, 45%, 43%);
+}
+
+
+
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+.info h1 {
+    color: hsl(210, 10%, 33%);
+}
+.info p {
+    display: block;
+    margin: auto;
+    color: hsl(201, 11%, 66%);
+    padding: 1.2% 0%;
+    font-size: 1.2rem;
+    max-width: 800px;
+}
+
+
+
+
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 50px;
+}
+.features img {
+    width: 800px;
+    position: relative;
+    left: -35px;
+    display: block;
+    height: fit-content;
+    /* margin:auto */
+}
+.points {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 10%;
+    /* height: inherit; */
+    width: 30%;
+    min-width: 165px;
+    max-width: 400px;
+}
+.feat {
+    padding: 2rem 0em;
+}
+.feat h2 {
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 0.5em;
+}
+.feat p {
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+}
+
+
+
+
+
+.image img {
+    display: block;
+    margin: auto;
+    padding-top: 5em;
+    width: 100%;
+    max-width: 905px;
+}
+
+
+
+
+
+.options {
+    /* display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%; */
+    margin: 5% 0% 2% 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.opt {
+    padding: 0em 2%;
+}
+.opt h2 {
+    color: hsl(210, 10%, 33%);
+    padding-top: 1em;
+}
+.opt p {
+    padding-top: 1em;
+    font-size: 0.9rem;
+    color: hsl(201, 11%, 66%);
+    max-width: 320px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+.companies {
+    /* display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%; */
+    padding: 4em 6% 1em 6%;
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    flex-wrap: wrap;
+}
+.companies img {
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
+
+
+
+
+.infotweek {
+    margin-top: 50px;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(0, 0%, 90%);
+    margin-top: 6em;
+}
+footer img {
+    background: transparent;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+    width: 60%;
+    padding-left: 5%;
+}
+.details img {
+    width: 60px;
+    padding: 1.7em;
+}
+.links {
+    background-color: hsl(0, 0%, 90%);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 3%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.links a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    background-color: hsl(0, 0%, 90%);
+    padding: 0.5em 3em;
+}
+.social {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2em;
+}
+.social a {
+    background-color: hsl(0, 0%, 90%);
+}
+.social img {
+    scale: 1.1;
+    margin: 0em 0.8em;
+    transition-duration: 0.7s;
+}
+
+
+
+
+
+/* Transitions */
+
+
+.buttons .btn:hover {
+    cursor: pointer;
+}
+.buttons .ios:hover {
+    background-color: hsl(171, 66%, 49%);
+    box-shadow: 0px 3.5px hsl(171, 66%, 44%);
+}.buttons .mac:hover {
+    background-color: hsl(233, 100%, 74%);
+    box-shadow: 0px 3.5px hsl(233, 100%, 69%);
+}
+
+
+
+
+
+.links a:hover {
+    color: hsl(171, 66%, 44%);
+}
+.social a img:hover {
+    transform: rotateY(360deg);
+    /* fill: red; */
+    cursor: pointer;
+}
+
+
+
+
+
+/* Mobile view */
+
+
+@media screen  and (max-width: 500px) {
+    .title {
+        padding: 0em 1em;
+    }
+    .title h1 {
+        font-size: 2.1rem;
+    }
+    
+    
+    
+    .info {
+        padding: 0em 1.5em;
+    }
+    .info h1 {
+        font-size: 2.1rem;
+    }
+    .info p {
+        padding-top: 1em;
+    }
+    
+    
+    
+    .features {
+        flex-direction: column;
+    }
+    .features img {
+        display: block;
+        margin: auto;
+        width: 80%;
+        left: 0;
+    }
+    .points {
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding: 1em 2em;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .options{
+        flex-direction: column;
+        padding-top: 5em;
+    }
+    .opt {
+        padding-bottom: 3em;
+        padding-right: 0;
+    }
+    .opt h2 {
+        padding-top: 1.5em;
+    }
+    
+    
+    
+    .companies {
+        flex-direction: column;
+        padding-top: 2em;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .companies img {
+        padding: 3em 0em;
+    }
+
+    
+    
+    footer {
+        flex-direction: column;
+    }
+    .details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        padding-top: 1em;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 1em;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 1.4rem;
+    }
+    .details img {
+        width: 100px;
+    }
+    .social {
+        padding: 1em 0em;
+        padding-bottom: 3em;
+    }
+    .social img {
+        width: 30px;
+        padding: 0em 0.5em;
+    }
+}
+
+
+
+
+
+@media screen  and (max-width: 1000px) {
+    .features {
+        flex-direction: column;
+    }
+    .features img {
+        display: block;
+        margin: auto;
+        width: 80%;
+        left: 0;
+    }
+    .points {
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding: 3em 2em 1em 2em;
+    }
+}
